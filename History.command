@@ -4,3 +4,5 @@ cp -f ~/Library/Application\ Support/Google/Chrome/Default/History $SDIR
 .mode csv
 select * from urls;
 EOF
+osascript -e 'tell application "Terminal" to quit' &
+exit
